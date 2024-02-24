@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="All Test Suite">
+
+    <listeners>
+        <listener class-name="Tests.TestComponents.Listeners"></listener>
+    </listeners>
+    <!--groups>
+        <run>
+            <include name="ErrorHandling"/>
+        </run>
+    </groups-->
+    <test thread-count="1" verbose="2"  name="C:/Users/manav/manav_java2_project/
+    manav_java2_project/manav_java2_selenium_project">
+        <classes>
+            <class name="Tests.ErrorValidations">
+            </class>
+        </classes>
+    </test>
+</suite>
